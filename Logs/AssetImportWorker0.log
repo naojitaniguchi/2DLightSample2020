@@ -1,0 +1,132 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/tani/work/Joshibi/2021/Inagaki/LightTest
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52563
+Successfully changed project path to: /Users/tani/work/Joshibi/2021/Inagaki/LightTest
+/Users/tani/work/Joshibi/2021/Inagaki/LightTest
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 64.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.8f1 (507919d4fff5)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/tani/work/Joshibi/2021/Inagaki/LightTest/Assets
+GfxDevice: creating device client; threaded=0
+2021-06-23 12:16:03.487 Unity[22855:1299953] Color LCD preferred device: AMD Radeon Pro 560 (high power)
+2021-06-23 12:16:03.487 Unity[22855:1299953] Metal devices available: 2
+2021-06-23 12:16:03.487 Unity[22855:1299953] 0: AMD Radeon Pro 560 (high power)
+2021-06-23 12:16:03.487 Unity[22855:1299953] 1: Intel(R) HD Graphics 630 (low power)
+2021-06-23 12:16:03.488 Unity[22855:1299953] Using device AMD Radeon Pro 560 (high power)
+Initializing Metal device caps: AMD Radeon Pro 560
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56855
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000696 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 126.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.020 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001701 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 64.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.884 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2902 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 199.2 MB.
+System memory in use after: 199.2 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3344.
+Total: 3.754517 ms (FindLiveObjects: 0.621812 ms CreateObjectMapping: 0.216699 ms MarkObjects: 2.721894 ms  DeleteObjects: 0.192834 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/New 2D Renderer Data.asset
+  artifactKey: Guid(04deaf556461f462eaf99610e98a5b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New 2D Renderer Data.asset using Guid(04deaf556461f462eaf99610e98a5b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e63fd33af8846279c2006217d1eb4c') in 0.393368 seconds
+  Import took 0.399933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 130.666617 seconds.
+  path: Assets/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(3ac535099ed2d4c5292d949e47f8eb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineAsset.asset using Guid(3ac535099ed2d4c5292d949e47f8eb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71609586538d4c6a3f5763bd320c5815') in 0.034915 seconds
+  Import took 0.042503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056353 seconds.
+  path: Assets/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(3ac535099ed2d4c5292d949e47f8eb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineAsset.asset using Guid(3ac535099ed2d4c5292d949e47f8eb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71609586538d4c6a3f5763bd320c5815') in 0.028399 seconds
+  Import took 0.035963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.205222 seconds.
+  path: Assets/UniversalRenderPipelineAsset_Renderer.asset
+  artifactKey: Guid(722813ed4ffe444b7857cbf431c1c662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineAsset_Renderer.asset using Guid(722813ed4ffe444b7857cbf431c1c662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4873df758e71e9e7382910be0bc2cb8') in 0.025063 seconds
+  Import took 0.033451 seconds .
+
+========================================================================
+Received Prepare
+Switching render pipeline 00000000000000000000000000000000 -> 3ac535099ed2d4c5292d949e47f8eb9e
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 59 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.1 MB.
+System memory in use after: 147.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3392.
+Total: 5.083469 ms (FindLiveObjects: 0.578884 ms CreateObjectMapping: 0.263084 ms MarkObjects: 4.059015 ms  DeleteObjects: 0.180918 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:srp/default-shader: 0000e00a000e0de00000e000e02d0000 -> 0000e00a000e0de00000e000e0000000
+========================================================================
+Received Import Request.
+  Time since last request: 190.520781 seconds.
+  path: Assets/hyoujou_text_woman_punpun.png
+  artifactKey: Guid(b9ce4aa211c124f7b96232e5c6aac7d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hyoujou_text_woman_punpun.png using Guid(b9ce4aa211c124f7b96232e5c6aac7d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c2087bc94dfd5deb68ccb04b2861aea') in 0.671913 seconds
+  Import took 0.679417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.827217 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.001935 seconds
+  Import took 0.009868 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
